@@ -24,6 +24,6 @@ jobs:
           node-version: 20
 
       - name: Launch semantic
-        run: npx semantic-release
+        run: npx semantic-release -p
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
