@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/renebentes/semantic-release/compare/v1.2.1...v1.3.0) (2024-06-18)
+
+### Features
+
+* configura atualização da versão no projeto exemplo ([632cad0](https://github.com/renebentes/semantic-release/commit/632cad0cfb8e663083465fc9ceba35fdb3c3c590))
+
 ## [1.2.1](https://github.com/renebentes/semantic-release/compare/v1.2.0...v1.2.1) (2024-06-18)
 
 ### Bug Fixes
