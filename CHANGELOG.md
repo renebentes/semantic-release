@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/renebentes/semantic-release/compare/v1.2.0...v1.2.1) (2024-06-18)
+
+### Bug Fixes
+
+* autor do changelog ([023a8b3](https://github.com/renebentes/semantic-release/commit/023a8b3a01b903328efc7f5001adfa5b5dee13e1))
+
 ## [1.2.0](https://github.com/renebentes/semantic-release/compare/v1.1.0...v1.2.0) (2024-06-18)
 
 ### Features
