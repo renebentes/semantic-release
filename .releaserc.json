@@ -1,0 +1,27 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "echo ${nextRelease.version} > version.txt"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assignees": "renebentes"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md", "version.txt"]
+      }
+    ]
+  ],
+  "preset": "conventionalcommits"
+}
