@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/renebentes/semantic-release/compare/v1.4.0...v1.4.1) (2024-06-19)
+
+### Bug Fixes
+
+* salva a alteração de versão no repositório ([b2386e5](https://github.com/renebentes/semantic-release/commit/b2386e52b7d3820564c716cb26cd1f8f6d015a9d))
+
 ## [1.4.0](https://github.com/renebentes/semantic-release/compare/v1.3.0...v1.4.0) (2024-06-19)
 
 ### Features
