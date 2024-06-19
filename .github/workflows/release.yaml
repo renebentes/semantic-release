@@ -27,7 +27,8 @@ jobs:
       - name: Install dependencies
         run: |
           npm i -g semantic-release @semantic-release/changelog \
-           @semantic-release/git conventional-changelog-conventionalcommits
+           @semantic-release/exec @semantic-release/git \
+           conventional-changelog-conventionalcommits
 
       - name: Launch semantic
         id: semantic

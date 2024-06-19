@@ -7,9 +7,14 @@
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
         [
+            "@semantic-release/exec",
+            {
+                "publishCmd": "echo ${nextRelease.version} > version.txt"
+            }
+        ],
+        [
             "@semantic-release/github",
             {
-                "prepareCmd": "echo ${nextRelease.version} > version.txt",
                 "assignees": "renebentes"
             }
         ],
