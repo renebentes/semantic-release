@@ -9,7 +9,8 @@
         [
             "@semantic-release/github",
             {
-                "prepareCmd": "echo ${nextRelease.version} > version.txt"
+                "prepareCmd": "echo ${nextRelease.version} > version.txt",
+                "assignees": "renebentes"
             }
         ],
         "@semantic-release/git"
