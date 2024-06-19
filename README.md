@@ -18,7 +18,7 @@ Se você achar algum problema ou tiver sugestões para melhorias, por favor, abr
 
 Você também pode verificar as _Issues_ e _Pull Requests_ existentes com os quais poderia ajudar.
 
-Ao contribuir com este projeto, por favor, siga o estilo de codificação existente, use [commit conventions][commits] em suas mensagens de commit e submeta suas alterações em uma branch separada.
+Ao contribuir com este projeto, por favor, siga o estilo de codificação existente, use [conventional commits][commits] em suas mensagens de commit e submeta suas alterações em uma branch separada.
 
 ## Notas de Lançamento
 
