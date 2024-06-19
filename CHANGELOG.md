@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/renebentes/semantic-release/compare/v1.3.0...v1.4.0) (2024-06-19)
+
+### Features
+
+* assina responsável por issues ([092c7d5](https://github.com/renebentes/semantic-release/commit/092c7d5121d640141292902e47717c77ec9cadaa))
+* move publicação de versão do projeto ([ecba679](https://github.com/renebentes/semantic-release/commit/ecba679bfe2ab7a849fe505efdee33f37142b1e8))
+
 ## [1.3.0](https://github.com/renebentes/semantic-release/compare/v1.2.1...v1.3.0) (2024-06-18)
 
 ### Features
