@@ -5,15 +5,15 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     [
-      "@semantic-release/exec",
-      {
-        "publishCmd": "echo ${nextRelease.version} > version.txt"
-      }
-    ],
-    [
       "@semantic-release/github",
       {
         "assignees": "renebentes"
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "echo ${nextRelease.version} > version.txt"
       }
     ],
     [
