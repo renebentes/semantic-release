@@ -18,7 +18,15 @@
                 "assignees": "renebentes"
             }
         ],
-        "@semantic-release/git"
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "CHANGELOG.md",
+                    "version.txt"
+                ]
+            }
+        ]
     ],
     "preset": "conventionalcommits"
 }
