@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/renebentes/semantic-release/compare/v1.4.1...v1.5.0) (2024-06-19)
+
+### Features
+
+* altera ordem de atualização da versao do projeto ([f8e3a7a](https://github.com/renebentes/semantic-release/commit/f8e3a7af579cb96295873100d1618df69a693d89))
+
 ## [1.4.1](https://github.com/renebentes/semantic-release/compare/v1.4.0...v1.4.1) (2024-06-19)
 
 ### Bug Fixes
