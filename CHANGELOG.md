@@ -1,3 +1,13 @@
+## [1.7.0](https://github.com/renebentes/semantic-release/compare/v1.6.0...v1.7.0) (2024-06-21)
+
+### Features
+
+* move configuração do preset para plugin ([53e3d6d](https://github.com/renebentes/semantic-release/commit/53e3d6d629a0f9fd68e50a27d3a19f19b72245a9))
+
+### Documentation
+
+* corrige configuração de plugin ([c71cfc4](https://github.com/renebentes/semantic-release/commit/c71cfc459ab8c383d0aca050d0319f4b4349fe05))
+
 ## [1.6.0](https://github.com/renebentes/semantic-release/compare/v1.5.0...v1.6.0) (2024-06-21)
 
 ### Features
