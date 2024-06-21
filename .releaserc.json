@@ -23,5 +23,16 @@
       }
     ]
   ],
-  "preset": "conventionalcommits"
+  "preset": "conventionalcommits",
+  "presetConfig": {
+    "types": [
+      { "type": "feat", "section": "Features" },
+      { "type": "fix", "section": "Bug Fixes" },
+      { "type": "chore", "section": "Miscellaneous" },
+      { "type": "docs", "section": "Documentation" },
+      { "type": "refactor", "section": "Refactoring" },
+      { "type": "perf", "section": "Performance" },
+      { "type": "test", "section": "Testing" }
+    ]
+  }
 }
