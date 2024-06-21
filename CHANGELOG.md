@@ -1,3 +1,9 @@
+## [1.6.0](https://github.com/renebentes/semantic-release/compare/v1.5.0...v1.6.0) (2024-06-21)
+
+### Features
+
+* configura seções do changelog ([24ce37d](https://github.com/renebentes/semantic-release/commit/24ce37de748302335d25867cfc4e185cad01e163))
+
 ## [1.5.0](https://github.com/renebentes/semantic-release/compare/v1.4.1...v1.5.0) (2024-06-19)
 
 ### Features
