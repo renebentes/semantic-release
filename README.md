@@ -17,11 +17,25 @@ Nesta prova de conceito (POC), utilizamos o seguinte:
 <!-- prettier-ignore-start -->
 ```json
 // .releaserc.json
-{
-  "branches": ["main"],
+"branches": ["main"],
   "plugins": [
     "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "presetConfig": {
+          "types": [
+            { "type": "feat", "section": "Features" },
+            { "type": "fix", "section": "Bug Fixes" },
+            { "type": "chore", "section": "Miscellaneous" },
+            { "type": "docs", "section": "Documentation" },
+            { "type": "refactor", "section": "Refactoring" },
+            { "type": "perf", "section": "Performance" },
+            { "type": "test", "section": "Testing" }
+          ]
+        }
+      }
+    ],
     "@semantic-release/changelog",
     [
       "@semantic-release/github",
@@ -42,20 +56,7 @@ Nesta prova de conceito (POC), utilizamos o seguinte:
       }
     ]
   ],
-  "preset": "conventionalcommits",
-  "presetConfig": {
-    "types": [
-      { "type": "feat", "section": "Features" },
-      { "type": "fix", "section": "Bug Fixes" },
-      { "type": "chore", "section": "Miscellaneous" },
-      { "type": "docs", "section": "Documentation" },
-      { "type": "refactor", "section": "Refactoring" },
-      { "type": "perf", "section": "Performance" },
-      { "type": "test", "section": "Testing" }
-    ]
-  }
-}
-
+  "preset": "conventionalcommits"
 ```
 <!-- prettier-ignore-end -->
 
