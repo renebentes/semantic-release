@@ -6,6 +6,59 @@
 
 - [Semantic Release](https://github.com/semantic-release/semantic-release)
 
+## Como configurar?
+
+**ATENÇÃO:** Não deixe de conferir a [documentação oficial](https://semantic-release.gitbook.io/semantic-release) da ferramenta.
+
+Por padrão, a ferramenta busca por um arquivo de configuração na raiz do projeto com o nome de .releaserc, escritas em YAML ou JSON, podendo ou não ter extensão. [Mais detalhes](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
+
+Nesta prova de conceito (POC), utilizamos o seguinte:
+
+<!-- prettier-ignore-start -->
+```json
+// .releaserc.json
+{
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    [
+      "@semantic-release/github",
+      {
+        "assignees": "renebentes"
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "echo ${nextRelease.version} > version.txt"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md", "version.txt"]
+      }
+    ]
+  ],
+  "preset": "conventionalcommits",
+  "presetConfig": {
+    "types": [
+      { "type": "feat", "section": "Features" },
+      { "type": "fix", "section": "Bug Fixes" },
+      { "type": "chore", "section": "Miscellaneous" },
+      { "type": "docs", "section": "Documentation" },
+      { "type": "refactor", "section": "Refactoring" },
+      { "type": "perf", "section": "Performance" },
+      { "type": "test", "section": "Testing" }
+    ]
+  }
+}
+
+```
+<!-- prettier-ignore-end -->
+
 ## Autor
 
 [Rene Bentes Pinto](http://github.com/renebentes)
