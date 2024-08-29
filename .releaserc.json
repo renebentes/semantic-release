@@ -38,5 +38,6 @@
       }
     ]
   ],
+  "extends": "semantic-release-monorepo",
   "preset": "conventionalcommits"
 }
