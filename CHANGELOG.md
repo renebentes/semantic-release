@@ -1,3 +1,16 @@
+## [1.8.0](https://github.com/renebentes/semantic-release/compare/v1.7.0...v1.8.0) (2024-08-29)
+
+### Features
+
+* **app-2:** cria novo aplicativo para teste ([3ea7186](https://github.com/renebentes/semantic-release/commit/3ea71860969c2fc086d97fcc52ffdcbf362ac63b))
+* estende configuração para gerar versões por aplicativo ([406cc0e](https://github.com/renebentes/semantic-release/commit/406cc0ecbbc8a56c7e2fab8ca970a4a42e25af1d))
+* remove semantic-release-monorepo ([7d74722](https://github.com/renebentes/semantic-release/commit/7d747226f26771468202ddeb66acbbfee727ea7b))
+* simula múltiplos aplicativos no repositório ([f48eeae](https://github.com/renebentes/semantic-release/commit/f48eeae6f32b0dc679bf5eb0afddf71318d00dba))
+
+### Documentation
+
+* **REAME:** corrige espaçamento no exemplo de configuração ([dead10e](https://github.com/renebentes/semantic-release/commit/dead10e2860b66e9d29ac9a8282e6e62df88a4f1))
+
 ## [1.7.0](https://github.com/renebentes/semantic-release/compare/v1.6.0...v1.7.0) (2024-06-21)
 
 ### Features
