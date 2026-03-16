@@ -30,6 +30,8 @@ jobs:
           --package @semantic-release/git
           --package conventional-changelog-conventionalcommits
           semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - run: semantic-release
         env:
