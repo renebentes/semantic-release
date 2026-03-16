@@ -1,0 +1,20 @@
+{
+  "name": "renebentes/test",
+  "description": "Use case for PHP",
+  "license": "GPL-2.0+",
+  "config": {
+    "platform": {
+      "php": "8.2"
+    }
+  },
+  "authors": [
+    {
+      "name": "Rene B. Pinto",
+      "email": "renebentes@yahoo.com.br"
+    }
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "version": "3.0.0"
+}

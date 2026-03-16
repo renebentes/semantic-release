@@ -28,13 +28,19 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "echo ${nextRelease.version} > version.txt"
+        "prepareCmd": "php ./build/bump.php -v ${nextRelease.version}"
       }
     ],
     [
       "@semantic-release/git",
       {
-        "assets": ["CHANGELOG.md", "version.txt"]
+        "assets": [
+          "src/*",
+          "CHANGELOG.md",
+          "composer.json",
+          "README.md",
+          "version.txt"
+        ]
       }
     ]
   ],
