@@ -1,3 +1,9 @@
+## [2.1.0](https://github.com/renebentes/semantic-release/compare/v2.0.0...v2.1.0) (2026-03-16)
+
+### Features
+
+* execute o `semantic-release` com `npx` ([#7](https://github.com/renebentes/semantic-release/issues/7)) ([491ec54](https://github.com/renebentes/semantic-release/commit/491ec5418e258cacd6d034e8cd45939a3d90b418))
+
 ## [2.0.0](https://github.com/renebentes/semantic-release/compare/v1.7.0...v2.0.0) (2026-03-16)
 
 ### ⚠ BREAKING CHANGES
