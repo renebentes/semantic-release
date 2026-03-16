@@ -50,7 +50,7 @@ $jsonFiles = [
 ];
 
 $readMeFiles = [
-    '/README.md',
+    '/src/joomla/README.md',
 ];
 
 /*
@@ -188,7 +188,7 @@ foreach ($jsonFiles as $jsonFile) {
 foreach ($readMeFiles as $readMeFile) {
     if (file_exists($rootPath . $readMeFile)) {
         $fileContents = file_get_contents($rootPath . $readMeFile);
-        $fileContents = preg_replace('#v[0-9]+\.[0-9]#', 'v' . $version['main'], $fileContents);
+        $fileContents = preg_replace('#Test v[0-9]+\.[0-9]#', 'Test v' . $version['main'], $fileContents);
         file_put_contents($rootPath . $readMeFile, $fileContents);
     }
 }
