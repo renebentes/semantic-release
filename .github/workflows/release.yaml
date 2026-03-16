@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           cache: npm
-          node-version: "lts/*"
+          node-version: 24
 
       - name: Install dependencies
         run: |
