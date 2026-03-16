@@ -1,3 +1,31 @@
+## [2.0.0](https://github.com/renebentes/semantic-release/compare/v1.7.0...v2.0.0) (2026-03-16)
+
+### ⚠ BREAKING CHANGES
+
+* adicione exemplo de uso com projetos PHP (#2)
+
+### Features
+
+* adicione exemplo de uso com projetos PHP ([#2](https://github.com/renebentes/semantic-release/issues/2)) ([f1ef90f](https://github.com/renebentes/semantic-release/commit/f1ef90f38f3cac658e476c72726776b73b1b5163))
+* **app-2:** cria novo aplicativo para teste ([3ea7186](https://github.com/renebentes/semantic-release/commit/3ea71860969c2fc086d97fcc52ffdcbf362ac63b))
+* estende configuração para gerar versões por aplicativo ([406cc0e](https://github.com/renebentes/semantic-release/commit/406cc0ecbbc8a56c7e2fab8ca970a4a42e25af1d))
+* remove semantic-release-monorepo ([7d74722](https://github.com/renebentes/semantic-release/commit/7d747226f26771468202ddeb66acbbfee727ea7b))
+* simula múltiplos aplicativos no repositório ([f48eeae](https://github.com/renebentes/semantic-release/commit/f48eeae6f32b0dc679bf5eb0afddf71318d00dba))
+
+### Bug Fixes
+
+* corrija chamada ao comando `npx` ([#5](https://github.com/renebentes/semantic-release/issues/5)) ([476102d](https://github.com/renebentes/semantic-release/commit/476102da0f3baad902dce0d7108e8fdb98f81412))
+* **Node:** use a versão 24 ([#3](https://github.com/renebentes/semantic-release/issues/3)) ([1307053](https://github.com/renebentes/semantic-release/commit/130705314ecb99dbe2d84b28fdaff2fc021343e4))
+* **release:** adicione token ao processo de geração ([#6](https://github.com/renebentes/semantic-release/issues/6)) ([86eb120](https://github.com/renebentes/semantic-release/commit/86eb1206b5b063ecf6575757c23a9379f19797de))
+
+### Miscellaneous
+
+* **release:** 1.8.0 [skip ci] ([9036ce0](https://github.com/renebentes/semantic-release/commit/9036ce052355c63a7248eed99910ecf0cafd2e5e))
+
+### Documentation
+
+* **README:** corrige espaçamento no exemplo de configuração ([5e8dcc8](https://github.com/renebentes/semantic-release/commit/5e8dcc8bcef185a1dd90ae76f5587404b8248bb4))
+
 ## [1.8.0](https://github.com/renebentes/semantic-release/compare/v1.7.0...v1.8.0) (2024-08-29)
 
 ### Features

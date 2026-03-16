@@ -87,4 +87,4 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 [repo]: http://github.com/renebentes/repository
 [issues]: ../../issues
 [pulls]: ../../pulls
-[commits]: https://www.conventionalcommits.org/en/v1.0.0/
+[commits]: https://www.conventionalcommits.org/en/v2.0.0/
