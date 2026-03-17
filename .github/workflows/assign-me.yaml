@@ -1,6 +1,8 @@
 name: "🙋‍♂️ Assign me"
 
 on:
+  issues:
+    types: [opened, reopened]
   pull_request:
     types: [opened, synchronize, reopened]
 
