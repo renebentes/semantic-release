@@ -169,6 +169,7 @@ foreach ($coreXmlFiles as $coreXmlFile) {
         $fileContents = file_get_contents($rootPath . $coreXmlFile);
         $fileContents = preg_replace('#<version>[^<]*</version>#', '<version>' . $version['main'] . '.' . $version['dev_level'] . '</version>', $fileContents);
         $fileContents = preg_replace('#<creationDate>[^<]*</creationDate>#', '<creationDate>' . $version['creation_date'] . '</creationDate>', $fileContents);
+        $fileContents = preg_replace('#<creationDate/>#', '<creationDate>' . $version['creation_date'] . '</creationDate>', $fileContents);
         file_put_contents($rootPath . $coreXmlFile, $fileContents);
     }
 }
