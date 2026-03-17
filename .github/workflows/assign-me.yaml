@@ -7,5 +7,8 @@ on:
 jobs:
   set_assignee:
     uses: renebentes/.github/.github/workflows/assign-me.yml@main
+    permissions:
+      issues: write
+      pull-requests: write
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
