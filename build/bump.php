@@ -40,11 +40,11 @@ const PHP_TAB = "\t";
 
 // File paths.
 $coreXmlFiles = [
-    '/govbr/templateDetails.xml',
+    '/src/joomla/test.xml',
 ];
 
 $jsonFiles = [
-    '/composer.json',
+    '/src/joomla/composer.json',
     '/package.json',
     '/package-lock.json',
 ];
