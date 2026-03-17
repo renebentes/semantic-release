@@ -23,11 +23,12 @@ jobs:
         with:
           node-version: 24
 
-      - run: npx --package semantic-release
-          --package @semantic-release/changelog
-          --package @semantic-release/exec
-          --package @semantic-release/git
-          --package conventional-changelog-conventionalcommits
-          semantic-release@25
+      - run: |
+          npx --package semantic-release@25
+            --package @semantic-release/changelog
+            --package @semantic-release/exec
+            --package @semantic-release/git
+            --package conventional-changelog-conventionalcommits
+            semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
