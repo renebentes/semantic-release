@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 24
 
-      - run: |
+      - run: >
           npx --package semantic-release@25
             --package @semantic-release/changelog
             --package @semantic-release/exec
