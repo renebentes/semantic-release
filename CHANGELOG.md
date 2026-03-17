@@ -1,3 +1,9 @@
+## [2.4.0](https://github.com/renebentes/semantic-release/compare/v2.3.0...v2.4.0) (2026-03-17)
+
+### Features
+
+* **bump:** selecione arquivos ([a589505](https://github.com/renebentes/semantic-release/commit/a589505f3ddd7662238fc52bbf7d3f3ecba28b00))
+
 ## [2.3.0](https://github.com/renebentes/semantic-release/compare/v2.2.0...v2.3.0) (2026-03-17)
 
 ### Features

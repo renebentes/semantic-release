@@ -1,6 +1,6 @@
 # test
 
-> Descrição Test v2.3
+> Descrição Test v2.4
 > Test_v0.0
 
 ## Tecnologias Utilizadas

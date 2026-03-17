@@ -2,11 +2,11 @@
 <extension type="package" version="6.0" method="upgrade">
     <name>pkg_test</name>
     <packagename>test</packagename>
-    <creationDate/>
+    <creationDate>2026-03</creationDate>
     <author>Rene Bentes Pinto</author>
     <authorEmail>renebentes@yahoo.com.br</authorEmail>
     <authorUrl>http://renebentes.github.io</authorUrl>
     <copyright>Copyright (C) 2026 Rene Bentes Pinto. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE</license>
-    <version>3.0.0</version>
+    <version>2.4.0</version>
 </extension>
