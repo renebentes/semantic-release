@@ -1,3 +1,15 @@
+## [2.2.0](https://github.com/renebentes/semantic-release/compare/v2.1.0...v2.2.0) (2026-03-17)
+
+### Features
+
+* remova passo adicional sem uso ([#8](https://github.com/renebentes/semantic-release/issues/8)) ([4b5a33a](https://github.com/renebentes/semantic-release/commit/4b5a33aa11e88f14c2ba2c15d52823987f1a9eeb))
+
+### Bug Fixes
+
+* adicione `-` e remova a indentação ([#11](https://github.com/renebentes/semantic-release/issues/11)) ([732db52](https://github.com/renebentes/semantic-release/commit/732db5217612112a27bd405126ddc6035b021d9d))
+* altere o | por > na execução do `npx` ([#10](https://github.com/renebentes/semantic-release/issues/10)) ([1856fa3](https://github.com/renebentes/semantic-release/commit/1856fa37a64b1e909284ad842ffe3884a1273248))
+* quebre o comando `npx`em várias linhas ([#9](https://github.com/renebentes/semantic-release/issues/9)) ([e607f45](https://github.com/renebentes/semantic-release/commit/e607f45180a9ecd027cf2fff257234738eaba79e))
+
 ## [2.1.0](https://github.com/renebentes/semantic-release/compare/v2.0.0...v2.1.0) (2026-03-16)
 
 ### Features
