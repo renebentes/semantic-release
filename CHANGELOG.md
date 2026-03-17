@@ -1,3 +1,9 @@
+## [2.3.0](https://github.com/renebentes/semantic-release/compare/v2.2.0...v2.3.0) (2026-03-17)
+
+### Features
+
+* **PHP:** adicione regex para selecionar tags self-closed ([22dcdfd](https://github.com/renebentes/semantic-release/commit/22dcdfd4c760acb65fc15fdec74ec71b445d2098))
+
 ## [2.2.0](https://github.com/renebentes/semantic-release/compare/v2.1.0...v2.2.0) (2026-03-17)
 
 ### Features

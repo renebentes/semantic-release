@@ -10,7 +10,7 @@
 /**
  * Version information class.
  *
- * @since  __DEPLOY_VERSION__
+ * @since  2.3.0
  */
 final class Version
 {
@@ -18,7 +18,7 @@ final class Version
      * Major release version.
      *
      * @var    integer
-     * @since  __DEPLOY_VERSION__
+     * @since  2.3.0
      */
     public const MAJOR_VERSION = 0;
 
@@ -26,7 +26,7 @@ final class Version
      * Minor release version.
      *
      * @var    integer
-     * @since  __DEPLOY_VERSION__
+     * @since  2.3.0
      */
     public const MINOR_VERSION = 0;
 
@@ -34,7 +34,7 @@ final class Version
      * Patch release version.
      *
      * @var    integer
-     * @since  __DEPLOY_VERSION__
+     * @since  2.3.0
      */
     public const PATCH_VERSION = 0;
 
@@ -45,7 +45,7 @@ final class Version
      * For example, for 1.0.0 when this is set to 'dev' the version string will be `1.0.0-dev`.
      *
      * @var    string
-     * @since  __DEPLOY_VERSION__
+     * @since  2.3.0
      */
     public const EXTRA_VERSION = 'dev';
 
@@ -53,7 +53,7 @@ final class Version
      * Development status.
      *
      * @var    string
-     * @since  __DEPLOY_VERSION__
+     * @since  2.3.0
      */
     public const DEV_STATUS = 'Development';
 
@@ -61,7 +61,7 @@ final class Version
      * Release date.
      *
      * @var    string
-     * @since  __DEPLOY_VERSION__
+     * @since  2.3.0
      */
     public const RELEASE_DATE = '17-February-2026';
 
@@ -69,7 +69,7 @@ final class Version
      * Release time.
      *
      * @var    string
-     * @since  __DEPLOY_VERSION__
+     * @since  2.3.0
      */
     public const RELEASE_TIME = '16:01';
 
@@ -77,7 +77,7 @@ final class Version
      * Release timezone.
      *
      * @var    string
-     * @since  __DEPLOY_VERSION__
+     * @since  2.3.0
      */
     public const RELEASE_TIMEZONE = 'UTC';
 }

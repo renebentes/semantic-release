@@ -7,7 +7,7 @@
  * @copyright   Copyright (C) 2026 Rene Bentes Pinto. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE
  * @link        http://renebentes.github.io
- * @since       __DEPLOY_VERSION__
+ * @since       2.3.0
  */
 
 echo "test";
